@@ -1,0 +1,30 @@
+{
+    "name": "ChatToSpeech",
+    "short_name": "CTS",
+    "description": "Reads Twitch chat outloud, so streamers can focus on gameplay!",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "icons/icon128.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/chatToSpeech.js"
+            ],
+            "matches": [
+                "*://*.twitch.tv/*"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "storage",
+        "*://*.twitch.tv/*/chat"
+    ]
+}

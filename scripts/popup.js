@@ -8,7 +8,7 @@ var normalFooterText = function(event){
 
 var phraseCounter = -1;
 var getPhrase = function() {
-    var phrases = ["I'm a robot MrDestructoid", 'MEMES FeelsGoodMan', 'PogChamp HAIR GROWING BACK', 'KKona KKool KKona', 'Kappa 123', '11 + 4 :thinking:', '30k CAR LUL'];
+    var phrases = ['PogChamp HAIR GROWING BACK', 'Kappa 123', '11 + 4 :thinking:', '30k CAR LUL'];
     phraseCounter++;
     return phrases[phraseCounter % phrases.length];
 };

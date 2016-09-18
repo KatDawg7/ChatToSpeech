@@ -9,16 +9,24 @@ header {
     background-color: rgba(240,240,240,.8);
 }
 
+a:link, a:active {
+    text-decoration: none;
+    color: rgba(70,70,70,.9);
+}
+
 #beta {
     background-color: rgba(240,240,0,.7);
     font-size: 12px;
     font-family: monospace;
     padding: 2px 0px 2px 0px;
+    text-decoration: none;
+    color: rgba(70,70,70,.9);
 }
+
 
 body {
     width: 240px
-    position: relative;
+/*    position: relative;*/
     top: 0px;
     left: 0px;
     font-family: Segoe UI, Arial, sans-serif;

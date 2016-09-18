@@ -1,5 +1,5 @@
 ##Chat to Speech
-v 1.0.0-beta
+v 0.1.0-beta
 
 ###Synopsis
 CTS is a chrome extension that will read twitch chat out loud using chrome's text-to-speech API.
@@ -17,7 +17,6 @@ You can either download the extension from the chrome web store or...
   4. I think that's it
 
 ###Help/Contribute
-I've had a lot of fun working on this project, but, like I said earlier, I am still learning and would greatly appreciate your input and advice.
+I've had a lot of fun working on this project, but like I said earlier, I am still learning and would greatly appreciate your input and advice.
 
-you can find me on twitter here: https://twitter.com/KatDawgo7
-and on twitch here: https://www.twitch.tv/katdawg7
+you can find me on twitter here: https://twitter.com/KatDawgo7 and on twitch here: https://www.twitch.tv/katdawg7
